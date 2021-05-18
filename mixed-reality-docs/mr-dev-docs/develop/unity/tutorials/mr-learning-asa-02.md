@@ -24,6 +24,9 @@ In this section, you will create a new Unity project and get it ready for MRTK d
 
 First, follow the [Initializing your project and deploying your first application](mr-learning-base-02.md), excluding the [Build your application to your device](mr-learning-base-02.md#building-your-application-to-your-hololens-2) instructions, which includes the following steps:
 
+> [!NOTE]
+> If you are working with ASA 2.9 and XRSDK please use the Unity 2020 LTS version , even though the "creating the Unity project" tutorial instructs you to use the 2019 LTS version.
+
 1. [Creating the Unity project](mr-learning-base-02.md#creating-the-unity-project) and give it a suitable name, for example, *MRTK Tutorials*
 2. [Switching the build platform](mr-learning-base-02.md#switching-the-build-platform)
 3. [Importing the TextMeshPro Essential Resources](mr-learning-base-02.md#importing-the-textmeshpro-essential-resources)
@@ -33,7 +36,7 @@ First, follow the [Initializing your project and deploying your first applicatio
 
 Then follow the [Changing the Spatial Awareness Display Option](mr-learning-base-03.md#changing-the-spatial-awareness-display-option) instructions to:
 
-1. Change the **MRTK configuration profile** for to the **DefaultHoloLens2ConfigurationProfile**
+1. For Unity 2019 with Legacy WSA change the **MRTK configuration profile** for to the **DefaultHoloLens2ConfigurationProfile**, for Unity 2020 with XRSDK change to the **DefaultHoloLens2XRSDKConfigurationProfile**
 1. Change the **spatial awareness mesh display options** to **Occlusion**.
 
 ## Installing inbuilt Unity packages
@@ -47,12 +50,13 @@ In the Unity menu, select **Window** > **Package Manager** to open the Package M
 
 ## Importing the tutorial assets
 
-Add AzurespatialAnchors SDK V2.7.1 into your unity project, to add the packages please follow this [tutorial](/azure/spatial-anchors/how-tos/setup-unity-project?tabs=UPMPackage)
+If you're using Unity 2019 with Legacy WSA add AzurespatialAnchors SDK V2.7.1 to your project or if you're using Unity 2020 with XRSDK add AzurespatialAnchors SDK V2.9 to your project, to add the packages please follow this [tutorial](/azure/spatial-anchors/how-tos/setup-unity-project?tabs=UPMPackage)
 
 Download and **import** the following Unity custom packages **in the order they are listed**:
 
 * [MRTK.HoloLens2.Unity.Tutorials.Assets.GettingStarted.2.4.0.unitypackage](https://github.com/microsoft/MixedRealityLearning/releases/download/getting-started-v2.4.0/MRTK.HoloLens2.Unity.Tutorials.Assets.GettingStarted.2.4.0.unitypackage)
-* [MRTK.HoloLens2.Unity.Tutorials.Assets.AzureSpatialAnchors.2.5.3.unitypackage](https://github.com/microsoft/MixedRealityLearning/releases/download/azure-spatial-anchors-v2.5.3/MRTK.HoloLens2.Unity.Tutorials.Assets.AzureSpatialAnchors.2.5.3.unitypackage)
+* For Unity 2019 with Legacy WSA [MRTK.HoloLens2.Unity.Tutorials.Assets.AzureSpatialAnchors.2.5.3.unitypackage](https://github.com/microsoft/MixedRealityLearning/releases/download/azure-spatial-anchors-v2.5.3/MRTK.HoloLens2.Unity.Tutorials.Assets.AzureSpatialAnchors.2.5.3.unitypackage)
+* For Unity 2020 with XRSDK [MRTK.HoloLens2.Unity.Tutorials.Assets.AzureSpatialAnchors.2.5.3.unitypackage](https://github.com/microsoft/MixedRealityLearning/releases/download/azure-spatial-anchors-v2.5.3/MRTK.HoloLens2.Unity.Tutorials.Assets.AzureSpatialAnchors.2.5.3.unitypackage)
 
 After you have imported the tutorial assets your Project window should look similar to this:
 
