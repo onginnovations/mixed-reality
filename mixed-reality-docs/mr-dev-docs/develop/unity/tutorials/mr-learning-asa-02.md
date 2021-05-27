@@ -61,7 +61,7 @@ Select **MixedRealityToolkit** object in the Hierarchy window, use the **Add Com
 * AR Anchor Manager (Script)
 * DisableDiagnosticsSystem (Script)
 
-![Unity MixedRealityToolkit object with AR Anchor Manager and DisableDiagnosticsSystem components added ](images/mr-learning-asa/asa-05-section2-step1-4.png)
+![Unity MixedRealityToolkit object with AR Anchor Manager and DisableDiagnosticsSystem components added ](images/mr-learning-asa/asa-02-section4-step1-2.png)
 
 > [!NOTE]
 > When you add the AR Anchor Manager (Script) component, the AR Session Origin (Script) component is automatically added because it is required by the AR Anchor Manager (Script) component.
