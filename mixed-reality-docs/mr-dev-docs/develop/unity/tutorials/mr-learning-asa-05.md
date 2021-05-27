@@ -58,18 +58,6 @@ Using the **Type** dropdown, change the type to **Microsoft.MixedReality.Toolkit
 
 ![Unity ARCameraProfile with path to data provider type selection](images/mr-learning-asa/asa-05-section2-step1-3.png)
 
-With the **MixedRealityToolkit** object still selected in the Hierarchy window, use the **Add Component** button in the Inspector window to add the following components:
-
-* AR Anchor Manager (Script)
-* DisableDiagnosticsSystem (Script)
-
-![Unity MixedRealityToolkit object with AR Anchor Manager and DisableDiagnosticsSystem components added ](images/mr-learning-asa/asa-05-section2-step1-4.png)
-
-> [!NOTE]
-> When you add the AR Reference Point Manager (Script) component, the AR Session Origin (Script) component is automatically added because it is required by the AR Reference Point Manager (Script) component.
-
-
-
 Update the MRTK UnityAR scripting defines by invoking the menu item: **Mixed Reality Toolkit** > **Utilities** > **UnityAR** > Update Scripting Defines
 
 ## Building your application to your Android device
