@@ -26,7 +26,7 @@ In the **Project Settings** window, expand the **Publishing Settings**, scroll d
 * Internet Clint server
 * Private Network Client Server
 
-![mrlearning-speech](images/mrlearning-speech/tutorial1-section2-step1-1.png)
+![enabling capabilities](images/mrlearning-pc-holographic-remoting/tutorial2-section0-step1-1.png)
 
 [!INCLUDE[](includes/configuring-scene-for-holographic-remoting.md)]
 
