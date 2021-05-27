@@ -19,30 +19,16 @@ In this tutorial, you will learn how to create a PC app for Holographic Remoting
 * Learn how to build and deploy the application with Visual Studio
 * Developing Holographic Remoting application and connecting to HoloLens
 
-## Configuring your scene for Holographic Remoting
+## Configuring the capabilities
 
-In this section, you will configure your project to stream your Mixed Reality experience to your HoloLens 2 device from your PC in real-time over a Wi-Fi connection.
-
-In the Project window, navigate to the **Assets** > **MRTK.Tutorials.PCHolograhicRemoting** > **Prefabs** folder, and click and drag **HolographicRemoting** prefab into your scene.
-
-![Unity with newly added HolographicRemoting prefab still selected](images/mrlearning-pc-holographic-remoting/Tutorial2-Section1-Step1-1.png)
-
-## Build your application to PC
-
-Your Holographic Remoting app is now ready to build on your PC. Follow the below steps and make these changes to build this application on to your PC.
-
-### 1. Set the player settings
-
-In the Unity menu, select Edit > Project Settings to open the Player Settings window.
-
-In the Project Settings window, expand the **Publishing Settings**, scroll down to the **Capabilities** section and select the below-shown capability checkbox in addition to the existing capabilities.
+In the **Project Settings** window, expand the **Publishing Settings**, scroll down to the Capabilities section and select the below-shown capability checkbox in addition to the existing capabilities.
 
 * Internet Clint server
 * Private Network Client Server
 
-In the **XR Settings** section, select the **WSA Holographic Remoting Supported** checkbox and enable the Holographic Remoting.
+![mrlearning-speech](images/mrlearning-speech/tutorial1-section2-step1-1.png)
 
-![Unity XR Settings window with WSA Holographic Remoting Supported enabled](images/mrlearning-pc-holographic-remoting/Tutorial2-Section2-Step1-1.png)
+[!INCLUDE[](includes/configuring-scene-for-holographic-remoting.md)]
 
 ### 2. Build the Unity Project
 
