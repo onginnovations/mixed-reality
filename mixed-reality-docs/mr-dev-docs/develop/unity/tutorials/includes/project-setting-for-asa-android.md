@@ -2,7 +2,7 @@
 
 In the Unity menu, select **Edit** > **Project Settings...** > **XR Plug-in management**, check the ARcore checkbox.
 
-![Unity MRTK Project Configurator window Android](../images/mr-learning-asa/asa-05-section3-step1-2-1.png)
+![Unity MRTK Project Configurator window Android](../images/mr-learning-asa/asa-05-section3-step1-2-1-XRSDK-android.png)
 
 Close the Player Settings window and open the Build Settings window again.
 
