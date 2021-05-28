@@ -15,7 +15,7 @@ Download and **import** the following Unity custom packages **in the order they 
 
 After you have imported the tutorial assets your Project window should look similar to this:
 
-![Unity Hierarchy, Scene, and Project windows after importing the tutorial assets](../images/mr-learning-asa/asa-02-section3-step1-2-XRSDK.png) 
+![Unity Hierarchy, Scene, and Project windows after importing the tutorial assets](../images/mr-learning-asa/asa-02-section3-step1-2-XRSDK.PNG) 
 
 > [!TIP]
 >  For a reminder on how to import a Unity custom package, you can refer to the [Importing the tutorial assets](../mr-learning-base-02.md#importing-the-tutorial-assets) instructions.
