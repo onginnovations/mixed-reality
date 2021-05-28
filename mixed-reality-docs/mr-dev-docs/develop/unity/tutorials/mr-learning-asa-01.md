@@ -48,10 +48,9 @@ Tutorials in this series:
 > [!CAUTION]
 > The recommended Mixed Reality Toolkit version for this tutorial series is MRTK 2.7.
 
-> [!CAUTION] 
+> [!CAUTION]
 >
-> This tutorial series supports Unity 2019 LTS (currently 2019.4.x) if you are using Legacy WSA and also Unity 2020 LTS(currently 2020.3.x) if you are using Window XR Plugin or Open XR. This supersedes any Unity version requirements stated in the prerequisites linked above.
+> This tutorial series supports Unity 2019 LTS (currently 2019.4.x) if you are using Legacy WSA and also Unity 2020 LTS(currently 2020.3.x) if you are using Windows XR Plugin or Open XR. This supersedes any Unity version requirements stated in the prerequisites linked above.
 
 > [!div class="nextstepaction"]
 > [Next Tutorial: 2. Getting started with Azure Spatial Anchors](mr-learning-asa-02.md)
-
