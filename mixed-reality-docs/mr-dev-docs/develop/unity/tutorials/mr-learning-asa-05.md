@@ -33,13 +33,17 @@ In the Hierarchy window, select the **MixedRealityToolkit** object. Then in the 
 > [!TIP]
 > For a reminder on how to clone MRTK profiles, you can refer to the [Configuring the Mixed Reality Toolkit profiles](mr-learning-base-03.md) instructions.
 
-With the **Camera** tab still selected in the Inspector window, expand the **Camera Setting Providers** and click the **+ Add Camera Setting Provider** button, then expand the newly added **New data provider 4**:
+With the **Camera** tab still selected in the Inspector window, expand the **Camera Setting Providers** and by clicking the "-" remove the **Windows Mixed Reality Camera Setting** or **XR SDK Windows Mixed Reality Camera Setting**:
 
 ![Unity ARCameraProfile with new data provider added](images/mr-learning-asa/asa-05-section2-step1-2.png)
 
+and click the **+ Add Camera Setting Provider** button, then expand the newly added **New data provider**:
+
+![Unity ARCameraProfile with new data provider added](images/mr-learning-asa/asa-05-section2-step1-3.png)
+
 Using the **Type** dropdown, change the type to **Microsoft.MixedReality.Toolkit.Experimental.UnityAR** > **UnityARCameraSettings**:
 
-![Unity ARCameraProfile with path to data provider type selection](images/mr-learning-asa/asa-05-section2-step1-3.png)
+![Unity ARCameraProfile with path to data provider type selection](images/mr-learning-asa/asa-05-section2-step1-4.png)
 
 Update the MRTK UnityAR scripting defines by invoking the menu item: **Mixed Reality** > **Toolkit** > **Utilities** > **UnityAR** > Update Scripting Defines
 
