@@ -1,6 +1,6 @@
 # [Unity 2020 + Windows XR Plugin](#tab/winxr)
 
-In the Unity menu, select **Edit** > **Project Settings...** > **XR Plug-in management**, check the ARkit checkbox.
+In the Unity menu, select **Edit** > **Project Settings...** > **XR Plug-in management**, check the ARKit checkbox.
 
 ![Unity MRTK Project Configurator window Android](../images/mr-learning-asa/asa-05-section3-step1-2-1-XRSDK-ios.png)
 
