@@ -33,7 +33,7 @@ In the Hierarchy window, select the **MixedRealityToolkit** object. Then in the 
 > [!TIP]
 > For a reminder on how to clone MRTK profiles, you can refer to the [Configuring the Mixed Reality Toolkit profiles](mr-learning-base-03.md) instructions.
 
-With the **Camera** tab still selected in the Inspector window, expand the **Camera Setting Providers** and click the **+ Add Camera Setting Provider** button, then expand the newly added **New data provider 3**:
+With the **Camera** tab still selected in the Inspector window, expand the **Camera Setting Providers** and click the **+ Add Camera Setting Provider** button, then expand the newly added **New data provider 4**:
 
 ![Unity ARCameraProfile with new data provider added](images/mr-learning-asa/asa-05-section2-step1-2.png)
 
