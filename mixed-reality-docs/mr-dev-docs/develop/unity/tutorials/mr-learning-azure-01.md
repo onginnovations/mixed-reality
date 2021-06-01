@@ -85,7 +85,7 @@ First, follow the [Initializing your project and first application](mr-learning-
 4. [Importing the Mixed Reality Toolkit and Configuring the Unity project](mr-learning-base-02.md#importing-the-mixed-reality-toolkit-and-configuring-the-unity-project)
 5. [Creating and configuring the scene](mr-learning-base-02.md#creating-the-scene-and-configuring-mrtk) and give the scene a suitable name, for example, *AzureCloudServices*
 
-Then follow the [Changing the Spatial Awareness Display Option](mr-learning-base-03.md#changing-the-spatial-awareness-display-option) instructions to ensure the MRTK configuration profile for your scene is **DefaultXRSDKConfigurationProfile** and change the display options for the spatial awareness mesh to **Occlusion**.
+Then follow the [Changing the Spatial Awareness Display Option](mr-learning-base-03.md#changing-the-spatial-awareness-display-option) instructions to ensure the MRTK configuration profile for your scene is **DefaultHololens2ConfigurationProfile** and change the display options for the spatial awareness mesh to **Occlusion**.
 
 ## Installing inbuilt Unity packages
 
@@ -124,7 +124,7 @@ In the Project window, navigate to **Assets** > **MRTK.Tutorials.AzureCloudServi
 
 ![Unity with SceneController, RootMenu and DataManager prefabs selected](images/mr-learning-azure/tutorial1-section5-step1-1.png)
 
-The **SceneController (prefab)** contains two scripts, **SceneController (script)** and **UnityDispatcher (script)**. The **SceneController** script component contains several UX functions and facilitates the photo capture functionality while **UnityDispatcher** is a helper class to allow execute actions on the Unity main thread.
+The **SceneController (prefab)** contains two scripts, **SceneController (script)** and **AppDispatcher (script)**. The **SceneController** script component contains several UX functions and facilitates the photo capture functionality while **AppDispatcher** is a helper class to allow execute actions on the Unity main thread.
 
 The **RootMenu (prefab)** is the primary UI prefab that holds all UI windows that are connected to each other through various small script components and control the general UX flow of the application.
 
