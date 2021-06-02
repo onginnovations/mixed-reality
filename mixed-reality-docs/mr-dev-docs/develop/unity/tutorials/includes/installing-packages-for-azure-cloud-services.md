@@ -18,7 +18,7 @@ Download and **import** the following Unity custom packages **in the order they 
 
 After you have imported the tutorial assets your Project window should look similar to this:
 
-![Unity Hierarchy, Scene, and Project windows after importing the tutorial assets](../images/mr-learning-azure/tutorial1-section4-step1-1.png)
+![Unity Hierarchy, Scene, and Project windows after importing the tutorial assets](../images/mr-learning-azure/tutorial1-section4-step1-1-XRSDK.png)
 
 > [!TIP]
 > For a reminder on how to import a Unity custom package, you can refer to the [Importing the tutorial assets](../mr-learning-base-02.md#importing-the-tutorial-assets) instructions.
@@ -43,7 +43,7 @@ Download and **import** the following Unity custom packages **in the order they 
 
 After you have imported the tutorial assets your Project window should look similar to this:
 
-![Unity Hierarchy, Scene, and Project windows after importing the tutorial assets](../images/mr-learning-azure/tutorial1-section4-step1-1.png)
+![Unity Hierarchy, Scene, and Project windows after importing the tutorial assets](../images/mr-learning-azure/tutorial1-section4-step1-1-OpenXR.png)
 
 > [!TIP]
 > For a reminder on how to import a Unity custom package, you can refer to the [Importing the tutorial assets](../mr-learning-base-02.md#importing-the-tutorial-assets) instructions.
@@ -68,7 +68,7 @@ Download and **import** the following Unity custom packages **in the order they 
 
 After you have imported the tutorial assets your Project window should look similar to this:
 
-![Unity Hierarchy, Scene, and Project windows after importing the tutorial assets](../images/mr-learning-azure/tutorial1-section4-step1-1.png)
+![Unity Hierarchy, Scene, and Project windows after importing the tutorial assets](../images/mr-learning-azure/tutorial1-section4-step1-1-Legacy.png)
 
 > [!NOTE]
 > If you see any CS0618 warnings regarding 'WorldAnchor.SetNativeSpatialAnchorPtr(IntPtr)' and 'WorldAnchor.GetNativeSpatialAnchorPtr()' being obsolete, you can ignore these warnings.
