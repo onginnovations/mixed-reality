@@ -30,3 +30,31 @@ In this exercise, you'll learn how to create a new Unity project, configure it f
 Wait for Unity to create the project:
 
 ![Unity create new project in progress](images/mr-learning-base/base-02-section1-step1-4.png)
+
+## Switching the build platform
+
+[!INCLUDE[](includes/switching-build-platform.md)]
+
+## Importing the TextMeshPro Essential Resources
+
+1. In the Unity menu, select **Window** > **TextMeshPro** > **Import TMP Essential Resources** to open the Import Unity Package window:
+
+![Unity Import TMP Essential Resources menu path](images/mr-learning-base/base-02-section3-step1-1.png)
+
+2. In the Import Unity Package window, click the **All** button to ensure all the assets are selected, then click the **Import** button to import the assets:
+
+![Unity TMP Essential Resources import window](images/mr-learning-base/base-02-section3-step1-2.png)
+
+## Importing the Mixed Reality Toolkit and Configuring the Unity project
+
+To Import Mixed Reality Toolkit into the Unity Project you will have to use Mixed Reality Feature Tool which allows developers to discover, update, and add Mixed Reality feature packages into Unity projects. You can search packages by name or category, see their dependencies, and even view proposed changes to your projects manifest file before importing.
+
+1. Open the executable file **MixedRealityFeatureTool** from the downloaded folder to launch the Mixed Reality Feature Tool.
+
+![Opening MixedRealityFeatureTool](images/mr-learning-base/base-02-section4-step1-1.png)
+
+[!INCLUDE[](includes/importing-mrtk.md)]
+
+## Creating the scene and configuring MRTK
+
+1. In the Unity menu, select **File** > **New Scene**:
