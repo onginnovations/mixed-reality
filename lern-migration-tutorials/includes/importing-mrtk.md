@@ -76,19 +76,19 @@ In the Project Settings window, select **XR Plug-in Management** > **Windows Mix
 
 # [Unity 2020 + OpenXR](#tab/openxr)
 
-1. Once **MixedRealityFeatureTool** is opened, to access preview releases click on **Settings** and enable **Show preview releases** under **Feature** tab, then click on **ok** to save the settings.
+2. Once **MixedRealityFeatureTool** is opened, to access preview releases click on **Settings** and enable **Show preview releases** under **Feature** tab, then click on **ok** to save the settings.
 
 ![MixedRealityFeatureTool preview](../images/mr-learning-base/base-02-section4-step1-2-preview.PNG)
 
-2. next click on **Start** to get started with Mixed Reality Feature Tool.
+3. next click on **Start** to get started with Mixed Reality Feature Tool.
 
 ![MixedRealityFeatureTool](../images/mr-learning-base/base-02-section4-step1-2.png)
 
-3. The first step is to point the Mixed Reality Feature Tool to your **Project path** using the **ellipsis** button, click on the Three dots ellipsis button next to the Project path and browse to your project folder in the explorer for example _D:\MixedRealityLearning\MRTK Tutorials_.
+4. The first step is to point the Mixed Reality Feature Tool to your **Project path** using the **ellipsis** button, click on the Three dots ellipsis button next to the Project path and browse to your project folder in the explorer for example _D:\MixedRealityLearning\MRTK Tutorials_.
 
 ![Adding Unity Path for MixedRealityFeatureTool](../images/mr-learning-base/base-02-section4-step1-3.png)
 
-4. When you have located your project's folder, click the Open button to return to the Mixed Reality Feature Tool. Then click on **Discover Features**.
+5. When you have located your project's folder, click the Open button to return to the Mixed Reality Feature Tool. Then click on **Discover Features**.
 
 > [!NOTE]
 > The dialog that's displayed when browsing for the Unity project folder contains '_' as the file name. There must be a value for the file name to enable the folder to be selected.
@@ -97,15 +97,15 @@ Features are grouped by category to make things easier to find, click on **Mixed
 
 ![MixedRealityFeatureTool Discover Features](../images/mr-learning-base/base-02-section4-step1-4-openxr.png)
 
-5. check the **Mixed Reality Toolkit Foundation** and click on the dropdown next to it to select **MRTK 2.7.0-preview.4**, also check the **Mixed Reality OpenXR Plugin** and click on the dropdown next to it to select most recent version available, then click on **Get features** button to download the selected packages.
+6. check the **Mixed Reality Toolkit Foundation** and click on the dropdown next to it to select **MRTK 2.7.0-preview.4**, also check the **Mixed Reality OpenXR Plugin** and click on the dropdown next to it to select most recent version available, then click on **Get features** button to download the selected packages.
 
 ![MixedRealityFeatureTool Open MixedReality](../images/mr-learning-base/base-02-section4-step1-5-openxr.PNG)
 
-6. Next click on the **Validate** button to validate the selected package, you will get a popup with message **No validation issues were detected** click on **OK** to close the popup and click on **Import** button.
+7. Next click on the **Validate** button to validate the selected package, you will get a popup with message **No validation issues were detected** click on **OK** to close the popup and click on **Import** button.
 
 ![MixedRealityFeatureTool Select required package](../images/mr-learning-base/base-02-section4-step1-6-OpenXR.PNG)
 
-7. Click on **Approve** Button to add the **Mixed Reality Toolkit** into the project.
+8. Click on **Approve** Button to add the **Mixed Reality Toolkit** into the project.
 
 ![MixedRealityFeatureTool Validate package](../images/mr-learning-base/base-02-section4-step1-7.PNG)
 
@@ -163,19 +163,19 @@ In the Project Settings window, select **XR Plug-in Management** > **OpenXR**, t
 
 # [Legacy WSA](#tab/wsa)
 
-1. Once **MixedRealityFeatureTool** is opened, to access preview releases click on **Settings** and enable **Show preview releases** under **Feature** tab, then click on **ok** to save the settings.
+2. Once **MixedRealityFeatureTool** is opened, to access preview releases click on **Settings** and enable **Show preview releases** under **Feature** tab, then click on **ok** to save the settings.
 
 ![MixedRealityFeatureTool preview](../images/mr-learning-base/base-02-section4-step1-2-preview.PNG)
 
-2. Next click on **Start** to get started with Mixed Reality Feature Tool.
+3. Next click on **Start** to get started with Mixed Reality Feature Tool.
 
 ![MixedRealityFeatureTool](../images/mr-learning-base/base-02-section4-step1-2.png)
 
-3. The first step is to point the Mixed Reality Feature Tool to your **Project path** using the **ellipsis** button, click on the Three dots ellipsis button next to the Project path and browse to your project folder in the explorer for example _D:\MixedRealityLearning\MRTK Tutorials_.
+4. The first step is to point the Mixed Reality Feature Tool to your **Project path** using the **ellipsis** button, click on the Three dots ellipsis button next to the Project path and browse to your project folder in the explorer for example _D:\MixedRealityLearning\MRTK Tutorials_.
 
 ![Adding Unity Path for MixedRealityFeatureTool](../images/mr-learning-base/base-02-section4-step1-3.png)
 
-4. When you have located your project's folder, click the Open button to return to the Mixed Reality Feature Tool. Then click on **Discover Features**.
+5. When you have located your project's folder, click the Open button to return to the Mixed Reality Feature Tool. Then click on **Discover Features**.
 
 > [!NOTE]
 > The dialog that's displayed when browsing for the Unity project folder contains '_' as the file name. There must be a value for the file name to enable the folder to be selected.
@@ -184,15 +184,15 @@ Features are grouped by category to make things easier to find, click on **Mixed
 
 ![MixedRealityFeatureTool Discover Features](../images/mr-learning-base/base-02-section4-step1-4.PNG)
 
-5. Check the **Mixed Reality Toolkit Foundation**, and click on the dropdown next to it to select **MRTK 2.7.0-preview.4**, then click on **Get features** button to download the selected packages.
+6. Check the **Mixed Reality Toolkit Foundation**, and click on the dropdown next to it to select **MRTK 2.7.0-preview.4**, then click on **Get features** button to download the selected packages.
 
 ![MixedRealityFeatureTool Open MixedReality](../images/mr-learning-base/base-02-section4-step1-5.PNG)
 
-6. Next click on the **Validate** button to validate the selected package, you will get a popup with message **No validation issues were detected** click on **OK** to close the popup and click on **Import** button.
+7. Next click on the **Validate** button to validate the selected package, you will get a popup with message **No validation issues were detected** click on **OK** to close the popup and click on **Import** button.
 
 ![MixedRealityFeatureTool Select required package](../images/mr-learning-base/base-02-section4-step1-6.PNG)
 
-7. Click on **Approve** Button to add the **Mixed Reality Toolkit** into the project.
+8. Click on **Approve** Button to add the **Mixed Reality Toolkit** into the project.
 
 ![MixedRealityFeatureTool Validate package](../images/mr-learning-base/base-02-section4-step1-7.PNG)
 

@@ -193,3 +193,31 @@ The main steps you will take to hide the spatial awareness mesh are:
 The newly created Configuration Profile is now assigned as the Configuration Profile for your scene.
 
 4. In the Unity menu, select **File** > **Save** to save your scene.
+
+### Enable the Spatial Awareness System
+
+In the Hierarchy window, select the **MixedRealityToolkit** object, then in the Inspector window, select the **Spatial Awareness** tab, and then check the **Enable Spatial Awareness System** checkbox:
+
+![Unity MixedRealityToolkit component with Spatial Awareness System enabled](images/mr-learning-base/base-03-section1-step2-1.png)
+
+### Clone the default Spatial Awareness System Profile
+
+1. In the **Spatial Awareness** tab, click the **Clone** button to open the Clone Profile window:
+
+![Unity MixedRealityToolkit component with Spatial Awareness tab selected](images/mr-learning-base/base-03-section1-step3-1.png)
+
+2. In the Clone Profile window, enter a suitable **Profile Name**, for example, _GettingStarted_MixedRealitySpatialAwarenessSystemProfile_, then click the **Clone** button to create an editable copy of the **DefaultMixedRealitySpatialAwarenessSystemProfile**:
+
+![Unity MixedRealityToolkit clone Spatial Awareness System Profile popup window](images/mr-learning-base/base-03-section1-step3-2.png)
+
+The newly created Spatial Awareness System Profile is now automatically assigned to your Configuration Profile.
+
+### Clone the default Spatial Awareness Mesh Observer Profile
+
+[!INCLUDE[](includes/configuring-profile.md)]
+
+### Change the visibility of the spatial awareness mesh
+
+In the **Spatial Mesh Observer Settings**, change the **Display Option** to **Occlusion** to make the spatial mapping mesh invisible while still functional:
+
+![Unity MixedRealityToolkit component with Spatial Mesh Observer Display Option set to Occlusion](images/mr-learning-base/base-03-section1-step5-1.png)
