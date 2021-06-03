@@ -8,7 +8,7 @@ In this exercise, you'll learn how to create a new Unity project, configure it f
 
 ![Unity Hub with New button highlighted](images/mr-learning-base/base-02-section1-step1-1.png)
 
-2. In the dropdown, select the Unity **version** specified in the [Prerequisites](introduction.md#prerequisites):
+2. In the dropdown, select the Unity **version** specified in the [Prerequisites](beginner-mrtk-tutorials-introduction.md#prerequisites):
 
 ![Unity Hub with NEW version selector dropdown](images/mr-learning-base/base-02-section1-step1-2.png)
 

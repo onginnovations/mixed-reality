@@ -32,4 +32,4 @@ Import and learn about Mixed Reality Toolkit (MRTK) to enhance your mixed realit
 10. Knowledge Check
 11. Summary
 
-[Next](introduction.md)
+[Next](beginner-mrtk-tutorials-introduction.md)
