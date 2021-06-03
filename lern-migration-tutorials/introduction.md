@@ -30,4 +30,4 @@ When installing Unity, please make sure to check following components under **'P
 
 If you installed Unity without these options, you can add them through **'Add Modules'** menu in Unity Hub.
 
-[Next](mr-learning-base-02.md)
+[Next](initializing-your-project-and-configuring-mrtk-profiles.md)
