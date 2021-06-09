@@ -29,8 +29,8 @@
 8. Exercise:Enabling and disabling spatialization at run time
 9. Using reverb to add distance to spatial audio
 10. Exercise:Using reverb to add distance to spatial audio
-
-
+11. Knowledge check
+12. Summary
 
 
 

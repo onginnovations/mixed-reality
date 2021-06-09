@@ -1,13 +1,5 @@
----
-title: Azure Speech Services tutorials - 1. Integrating and using speech recognition and transcription
-description: Complete this course to learn how to implement Azure Speech SDK within a mixed reality application.
-author: jessemcculloch
-ms.author: jemccull
-ms.date: 02/05/2021
-ms.topic: article
-keywords: mixed reality, unity, tutorial, hololens, MRTK, mixed reality toolkit, UWP, Azure spatial anchors, speech recognition, Windows 10
-ms.localizationpriority: high
----
+
+
 #  Azure Speech Services Tutorials
 
 
