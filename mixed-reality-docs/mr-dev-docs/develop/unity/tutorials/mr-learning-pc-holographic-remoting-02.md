@@ -30,6 +30,16 @@ In the **Project Settings** window, expand the **Publishing Settings**, scroll d
 
 [!INCLUDE[](includes/configuring-scene-for-holographic-remoting.md)]
 
+## Build your application to PC
+
+Your Holographic Remoting app is now ready to build on your PC. Follow the below steps and make these changes to build this application on to your PC.
+
+### 1. Set the player settings
+
+In the **XR Settings** section, select the **WSA Holographic Remoting Supported** checkbox and enable the Holographic Remoting.
+
+![Unity XR Settings window with WSA Holographic Remoting Supported enabled](../images/mrlearning-pc-holographic-remoting/Tutorial2-Section2-Step1-1.png)
+
 ### 2. Build the Unity Project
 
 In the Unity menu, select File > Build Settings to open the Build Settings window.
