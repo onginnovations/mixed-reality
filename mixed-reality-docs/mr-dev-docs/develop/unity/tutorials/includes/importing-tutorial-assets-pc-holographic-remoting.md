@@ -1,5 +1,3 @@
-# [Unity 2019/2020 + Windows XR Plugin](#tab/winxr)
-
 # [Unity 2020 + OpenXR](#tab/openxr)
 
 Download and **import** the [MRTK.Tutorials.PCHolographicRemoting.unitypackage](https://github.com/microsoft/MixedRealityLearning/releases/download/pc-holographic-remoting-v2.4.1/MRTK.Tutorials.PCHolographicRemoting.OpenXR.unitypackage).

@@ -34,7 +34,7 @@ In the second tutorial, [Create a Holographic Remoting application](mr-learning-
 We **strongly recommend** completing the [Getting started](mr-learning-base-01.md) tutorials series or some basic prior experience with Unity and MRTK before continuing.
 
 > [!IMPORTANT]
-> * This tutorial series supports Unity 2019 LTS (currently 2019.4.x) if you are using Legacy WSA and also Unity 2020 LTS(currently 2020.3.x) if you are using Open XR. This supersedes any Unity version requirements stated in the prerequisites linked above.
+> * This tutorial series supports Unity 2020 LTS(currently 2020.3.x) if you are using Open XR and Unity 2019 LTS (currently 2019.4.x) if you are using Legacy WSA This supersedes any Unity version requirements stated in the prerequisites linked above.
 
 ## Creating and preparing the Unity project
 
