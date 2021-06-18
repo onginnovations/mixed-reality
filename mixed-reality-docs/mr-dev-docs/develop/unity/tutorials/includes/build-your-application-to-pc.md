@@ -1,5 +1,44 @@
 # [Unity 2020 + OpenXR](#tab/openxr)
 
+### 1. Switching Build Platform
+
+In the Unity menu, select File > Build Settings to open the Build Settings window.
+
+In the Build Settings window, select **PC, Mac & Linux Standlone** Platform and click the Switch Platform button:
+
+![Switching Build Platform](../images/mrlearning-pc-holographic-remoting/Tutorial2-Section2-Step2-1.png)
+
+When Unity has finished switching the platform, click the red x icon to close the Build Settings window.
+
+### 2. Set the project settings
+
+In the Unity menu, select Edit > Project Settings > XR Plug-in Management > OpenXR > switch to PC, Mac & Linux Standlone tab and change the Depth submission mode from None to **Depth 16 Bit** and in interaction profiles add **Eye Gaze Interaction Profile** and **Microsoft Hand Interaction Profile** by clicking on the + symbol.
+
+![Enable Holographic App Remoting](../images/mrlearning-pc-holographic-remoting/Tutorial2-Section2-Step1-1.png)
+
+Under Open XR feature groups > All features > Set the **Holographic App Remoting** checkbox.
+
+![Enable Holographic App Remoting](../images/mrlearning-pc-holographic-remoting/Tutorial2-Section2-Step1-1.png)
+
+And also under Open XR feature groups, set Windows Mixed Reality and **Holographic App Remoting** checkbox.
+
+![Enable Holographic App Remoting](../images/mrlearning-pc-holographic-remoting/Tutorial2-Section2-Step1-1.png)
+
+### 3. Build the Unity Project
+
+In the Unity menu, select File > Build Settings to open the Build Settings window.
+
+In the Build Settings window, click the ***Add Open Scenes*** button to add your current scene to the Scenes. In the Build list, then click the ***Build button*** to open the PC, Mac & Linux Standlone platform window:
+
+![Unity Build Settings window with scene added](../images/mrlearning-pc-holographic-remoting/Tutorial2-Section2-Step2-1.png)
+
+In the Build PC, Mac & Linux Standlone platform window, choose a suitable location to store your build, for example, Documents\MixedRealityLearning. Create a new folder and give it a suitable name, for example, PCHolographicRemoting. Then click the ***Select Folder*** button to start the build process:
+
+![Unity Build Settings window with Select Folder prompt window](../images/mrlearning-pc-holographic-remoting/Tutorial2-Section2-Step2-2.png)
+
+Wait for Unity to finish the build process.
+
+![Unity build process in progress](../images/mrlearning-pc-holographic-remoting/Tutorial2-Section2-Step2-3.png)
 
 # [Legacy WSA](#tab/wsa)
 
