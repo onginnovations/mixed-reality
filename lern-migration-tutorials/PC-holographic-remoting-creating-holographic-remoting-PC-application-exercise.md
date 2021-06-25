@@ -7,51 +7,51 @@ In the Project Settings window, expand the **Publishing Settings**, scroll down 
 
 * Internet Clint server
 * Private Network Client Server
-(images/)
+![](images/PC-holographic-tutorials/a1.png)
 
 Unity 2020+OpenXR
 ## Configuring your scene for Holographic Remoting
 In this section, you will configure your project to stream your Mixed Reality experience to your HoloLens 2 device from your PC in real-time over a Wi-Fi connection.
 
 In the Project window, navigate to the **Assets > MRTK.Tutorials.PCHolograhicRemoting > Prefabs** folder, and click and drag **HolographicRemoting** prefab into your scene.
-(images/)
+![](images/PC-holographic-tutorials/a1.png)
 
 Legacy WSA
 ## Configuring your scene for Holographic Remoting
 In this section, you will configure your project to stream your Mixed Reality experience to your HoloLens 2 device from your PC in real-time over a Wi-Fi connection.
 
 In the Project window, navigate to the **Assets > MRTK.Tutorials.PCHolograhicRemoting > Prefabs** folder, and click and drag **HolographicRemoting** prefab into your scene.
-(images/)
+![](images/PC-holographic-tutorials/a2.png)
 
 ## Build your application to PC
 
 Unity 2020+ OpenXR
 
 Your Holographic Remoting app is now ready to build on your PC. Follow the below steps and make these changes to build this application on to your PC.
-(images/)
+![](images/PC-holographic-tutorials/a3.png)
 When Unity has finished switching the platform, click the x icon to close the Build Settings window.
 
 ## 2. Set the project settings
 In the Unity menu, select **Edit > Project Settings > XR Plug-in Management** ensure that you are in Windows Standalone tab and check the **OpenXR** and **Windows Mixed Reality feature** set checkbox.
-(images/)
+![](images/PC-holographic-tutorials/a4.png)
 
 In Project Settings window, select **OpenXR** and ensure that you are in Windows Standalone tab and change the **Depth submission mode** from None to **Depth 16** Bit.
 
 In interaction profiles tab add **Eye Gaze Interaction Profile**and **Microsoft Hand Interaction Profile** by clicking on the + symbol.
-(images/)
+![](images/PC-holographic-tutorials/a5.png)
 Under **Open XR feature groups > All features** > check the Holographic App Remoting checkbox.
-(images/)
+![](images/PC-holographic-tutorials/a6.png)
 next select the **Windows Mixed Reality** check box and under Windows Mixed Reality group select the **Holographic App Remoting** checkbox.
-(images/)
+![](images/PC-holographic-tutorials/a7.png)
 ## 3. Build the Unity Project
 In the Unity menu, select File > Build Settings to open the Build Settings window.
 
 In the Build Settings window, click the **Add Open Scenes** button to add your current scene to the Scenes. In the Build list, then click the **Build** button:
-(images/)
+![](images/PC-holographic-tutorials/a8.png)
 choose a suitable location to store your build, for example, Documents\MixedRealityLearning. Create a new folder and give it a suitable name, for example, PCHolographicRemoting. Then click the Select Folder button to start the build process:
-(images/)
+![](images/PC-holographic-tutorials/a9.png)
 Wait for Unity to finish the build process.
-(images/)
+![](images/PC-holographic-tutorials/a10.png)
 double click on the Executable file to open the PC Holographic Remoting Application in your PC.
 
  >[!Note]
@@ -61,28 +61,28 @@ double click on the Executable file to open the PC Holographic Remoting Applicat
 Legacy WSA
 ## 1. Set the player settings
 In the **XR Settings** section, select the **WSA Holographic Remoting Supported** checkbox and enable the Holographic Remoting.
-(images/)
+![](images/PC-holographic-tutorials/a12.png)
 
 ## 2. Build the Unity Project
 In the Unity menu, select File > Build Settings to open the Build Settings window.
 
 In the Build Settings window, click the **Add Open Scenes**button to add your current scene to the Scenes. In the Build list, then click the **Build** button to open the Build Universal Windows Platform window:
-(images/)
+![](images/PC-holographic-tutorials/a13.png)
 
 In the Build Universal Windows Platform window, choose a suitable location to store your build, for example, Documents\MixedRealityLearning. Create a new folder and give it a suitable name, for example, PCHolographicRemoting. Then click the **Select Folder** button to start the build process:
-(images/)
+![](images/PC-holographic-tutorials/a14.png)
 
 Wait for Unity to finish the build process.
-(images/)
+![](images/PC-holographic-tutorials/a15.png)
 
 ## 3. Build and deploy the application
 When the build process is completed, Unity will prompt Windows File Explorer to open the location you stored the build. Navigate inside the folder, and double-click the .sln file to open it in Visual Studio:
-(images/)
+![](images/PC-holographic-tutorials/a16.png)
  >[!Note]
 >If Visual Studio asks you to install new components, take a moment to ensure that all prerequisite components are installed as specified in the Install the Tools documentation.
 
 Configure Visual Studio for PC by selecting the Release configuration, the x64 architecture, and Local Machine as target:
-(images/)
+![](images/PC-holographic-tutorials/a17.png)
 Click the button that says Local Machine. It starts to build and deploy the application on to your PC. The application will be installed in your PC by default.
 
 ## Testing Holographic Remoting remote application
