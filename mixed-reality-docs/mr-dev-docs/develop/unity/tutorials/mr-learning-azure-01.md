@@ -71,7 +71,7 @@ The application is mainly driven by traditional UI, so you use the [Azure Bot Se
 * <a href="https://docs.unity3d.com/Manual/GettingStartedInstallingHub.html" target="_blank">Unity Hub</a> with Unity 2020/2019 LTS installed and the Universal Windows Platform Build Support module added
 
 > [!Important]
-> This tutorial series supports Unity 2020 LTS(currently 2020.3.x) if you are using Open XR or Windows XR Plugin and also Unity 2019 LTS (currently 2019.4.x) if you are using Legacy WSA or Windows XR Plugin. This supersedes any Unity version requirements stated in the prerequisites linked above.
+> This tutorial series supports Unity 2020 LTS(currently 2020.3.x) if you are using Open XR or Windows XR Plugin and also Unity 2019 LTS (currently 2019.4.x) if you are using Legacy WSA. This supersedes any Unity version requirements stated in the prerequisites linked above.
 
 ## Creating and preparing the Unity project
 
@@ -81,7 +81,7 @@ First, follow the [Initializing your project and first application](mr-learning-
 
 1. [Creating the Unity project](mr-learning-base-02.md#creating-the-unity-project) and give it a suitable name, for example, *Azure Cloud Tutorials*
 2. [Switching the build platform](mr-learning-base-02.md#switching-the-build-platform)
-3. [Importing the TextMeshPro Essential Resources](mr-learning-base-02.md#importing-the-textmeshpro-essential-resources)
+3. [Importing the TextMeshPro Essential Resources](mr-learning-base-04.md#importing-the-textmeshpro-essential-resources)
 4. [Importing the Mixed Reality Toolkit and Configuring the Unity project](mr-learning-base-02.md#importing-the-mixed-reality-toolkit-and-configuring-the-unity-project)
 5. [Creating and configuring the scene](mr-learning-base-02.md#creating-the-scene-and-configuring-mrtk) and give the scene a suitable name, for example, *AzureCloudServices*
 
